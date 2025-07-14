@@ -1,14 +1,28 @@
-// components/Navbar.tsx
+'use client';
+
 import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center py-6 text-sm">
-      <Link href="/" className="font-bold text-lg">Afsha</Link>
-      <div className="space-x-4">
-        <Link href="/projects">Projects</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+    <nav className="w-full border-b border-gray-200">
+      <div className="max-w-4xl mx-auto flex justify-between items-center px-4 py-6 text-sm text-gray-600">
+        <Link
+          href="/"
+          className="font-medium tracking-tight hover:text-black transition-colors"
+        >
+          Afsha
+        </Link>
+        <div className="space-x-6">
+          <Link href="/projects" className="hover:text-black transition-colors">
+            Projects
+          </Link>
+          <Link href="/about" className="hover:text-black transition-colors">
+            About
+          </Link>
+          <Link href="/contact" className="hover:text-black transition-colors">
+            Contact
+          </Link>
+        </div>
       </div>
     </nav>
   );
