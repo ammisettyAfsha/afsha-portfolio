@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar';
 import ProjectCards from '@/components/ProjectCards';
 
 const projects = [
@@ -79,6 +80,8 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
+    <div>
+    <Navbar/>
     <main className="max-w-4xl mx-auto px-6 py-20">
       <h1 className="text-4xl font-bold mb-10">Projects</h1>
       <div className="grid gap-10 md:grid-cols-2">
@@ -87,5 +90,6 @@ export default function ProjectsPage() {
         ))}
       </div>
     </main>
+    </div>
   );
 }
