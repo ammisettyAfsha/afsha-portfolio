@@ -10,10 +10,10 @@ export default function HomePage() {
       </div>
       <section className="mt-10 max-w-2xl pl-10 pr-4 text-left">
         <Image
-          src="/profile.jfif"
+          src="/profile.png"
           alt="Afsha profile picture"
-          width={100}
-          height={100}
+          width={80}
+          height={80}
           className="rounded-full mb-6"
         />
         <h1 className="text-5xl font-bold mb-6 leading-tight">
