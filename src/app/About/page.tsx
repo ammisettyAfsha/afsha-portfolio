@@ -2,7 +2,7 @@
 
 import Navbar from '@/components/Navbar';
 import Image from 'next/image';
-//import SkillsSection from '@/components/SkillsSection';
+import SkillsSection from '@/components/SkillsSection';
 
 export default function AboutPage() {
   return (
@@ -46,7 +46,7 @@ export default function AboutPage() {
       <hr className="my-12 border-t dark:border-gray-700" />
 
       {/* Skills Grid */}
-      {/* //<SkillsSection /> */}
+        <SkillsSection />
     </main>
     </div>
   );
