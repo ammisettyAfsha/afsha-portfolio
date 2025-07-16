@@ -14,7 +14,7 @@ export default function AboutPage() {
         {/* Profile Section */}
         <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
           <Image
-            src="/profile.jfif"
+            src="/profile.png"
             alt="Afsha Ammisetty"
             width={180}
             height={180}
