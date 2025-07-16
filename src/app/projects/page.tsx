@@ -6,7 +6,7 @@ const projects = [
     title: 'AIRS Biryani Point',
     description: 'A food ordering website with online cart, admin dashboard, and delivery schedule system.',
     link: 'https://airs-biryani-point-git-main-ammisettyafshas-projects.vercel.app/',
-    image: '/projects/airs-biryani.png',
+    image: '/projects/airs.png',
     tech: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vercel', 'HTML', 'CSS'],
     documents: [],
   },
@@ -27,7 +27,7 @@ const projects = [
   title: 'Vedacations Teaching Pvt Ltd',
   description: 'Worked as a React Developer on an educational platform for delivering online learning content and classroom resources.',
   link: 'https://theguruji.in/',
-  image: '/projects/vedacations.png',
+  image: '/projects/theguruji.jpg',
   tech: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
   documents: [
     {
