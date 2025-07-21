@@ -32,14 +32,14 @@ export default function AboutPage() {
               {"Outside of work, I enjoy cooking, exploring UX trends, and learning emerging tools in frontend ecosystems."}
             </p>
 
-            {/* Resume Link */}
+            {/* Resume Link 
             <a
               href="/Afsha_Ammisetty_Resume.docx"
               download
               className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
             >
               📄 Download Resume (.docx)
-            </a>
+            </a>*/}
           </div>
         </div>
 
