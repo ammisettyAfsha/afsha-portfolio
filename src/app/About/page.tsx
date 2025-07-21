@@ -25,7 +25,7 @@ export default function AboutPage() {
               {"I'm Afsha Ammisetty — a Front-End Developer based in Charlottetown, PEI, Canada, with over 5 years of experience building fast, accessible, and user-friendly websites and web applications."}
             </p>
             <p className="text-gray-700 dark:text-gray-400 mb-2">
-              {"I specialize in Front End Technologies like HTML, CSS, JavaScript, React, and Next.js. My recent work includes building full-stack solutions with RESTful APIs, custom admin dashboards, and interactive UIs. I've delivered responsive designs and clean code for companies like "}
+              {"I specialize in Front End Technologies like HTML, CSS, JavaScript, React, Next.js and CMS. My recent work includes building full-stack solutions with RESTful APIs, custom admin dashboards, and interactive UIs. I've delivered responsive designs and clean code for companies like "}
               <strong>Walls Metal Roofing</strong>, <strong>Vedacations Teaching</strong>{" and more."}
             </p>
             <p className="text-gray-700 dark:text-gray-400">
@@ -34,7 +34,7 @@ export default function AboutPage() {
 
             {/* Resume Link */}
             <a
-              href="/AfshaAmmisetty_Resume.docx"
+              href="/Afsha_Ammisetty_Resume.docx"
               download
               className="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline font-medium"
             >
