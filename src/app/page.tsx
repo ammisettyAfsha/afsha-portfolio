@@ -20,7 +20,7 @@ export default function HomePage() {
           {"Hi there, I’m Afsha"}
         </h1>
         <p className="text-xl text-gray-700 leading-relaxed">
-          {"I'm a front-end developer living in Charlottetown, PE, Canada. I enjoy building and maintaining modern websites and interfaces using front-end technologies. I also enjoy learning, exploring, and sharing what I discover along the way."}
+          {"I'm a front-end developer living in Canada. I enjoy building and maintaining modern websites and interfaces using front-end technologies. I also enjoy learning, exploring, and sharing what I discover along the way."}
         </p>
       </section>
       <JourneyAndExperience />
